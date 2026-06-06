@@ -119,12 +119,3 @@ examples are intentionally opinionated about what agents most often get wrong:
 Contributions of further correct, single-concept examples are welcome — the goal
 is to grow a trustworthy corpus that keeps Classic ASP/VBScript alive for the
 agents now writing it.
-
----
-
-### Short description (for GitHub)
-
-> Runnable, heavily-commented Classic ASP / VBScript samples — covering language
-> basics, classes, regex, dates, Variant coercion edge cases and more — tested on
-> both IIS and ASPPY, and written as ground-truth reference code for humans and AI
-> coding agents.
