@@ -51,7 +51,7 @@ For i = 0 To UBound(samples)
     blurb = samples(i)(2)
     tag   = samples(i)(3)
     WriteLine "  <li>"
-    WriteLine "    <a href=""/" & HtmlEncode(file) & """>" & HtmlEncode(title) & _
+    WriteLine "    <a href=""" & HtmlEncode(file) & """>" & HtmlEncode(title) & _
               "</a><span class=""tag"">" & HtmlEncode(tag) & "</span>"
     WriteLine "    <p>" & HtmlEncode(blurb) & "</p>"
     WriteLine "  </li>"
@@ -69,7 +69,7 @@ Next
 </p>
 <ul class="cards">
   <li>
-    <a href="/classes/default.asp">Advanced Classes Gallery &raquo;</a><span class="tag">classes</span>
+    <a href="classes/default.asp">Advanced Classes Gallery &raquo;</a><span class="tag">classes</span>
     <p>Nine standalone, runnable demos of real-world Classic ASP/VBScript class design and syntax.</p>
   </li>
 </ul>
