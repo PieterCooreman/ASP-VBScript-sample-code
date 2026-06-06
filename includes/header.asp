@@ -63,6 +63,6 @@ Response.CharSet = "UTF-8"
   <div class="brand">Classic <span>ASP</span> / VBScript &mdash; Live Samples on IIS</div>
 </header>
 <nav class="crumbs">
-  <a href="/index.asp">Home</a> &raquo; <%= HtmlEncode(PageTitle) %>
+  <a href="index.asp">Home</a> &raquo; <%= HtmlEncode(PageTitle) %>
 </nav>
 <main>
